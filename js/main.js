@@ -7,7 +7,6 @@ function init() {
     stamp: '.headline',
     gutter: '.gutter-sizer',
     percentPosition: true
-
   });
 
 }

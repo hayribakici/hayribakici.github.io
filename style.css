@@ -4,9 +4,10 @@
 
 .headline {
   position: absolute;
-  width: 100%;
-  background: orange;
+  width: 99%;
   height: 120px;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+  border-color: black;
   margin-bottom: 1%;
 }
 
@@ -20,5 +21,5 @@
 
 /* fluid 3 columns */
 .grid-sizer,
-.grid-item { width: 45%; }
-/*.gutter-sizer { width: 1%; }*/
+.grid-item { width: 32%; }
+.gutter-sizer { width: 1.5%; }
