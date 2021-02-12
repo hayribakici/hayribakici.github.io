@@ -1,13 +1,62 @@
-<!DOCTYPE html>
-<html
-   xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr" id="html-main">
-   <head>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-     <meta charset="utf-8">
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css"></link>
-  </head>
-  <body>
-     <a href="game/index.html">To the game</a>
-  </body>
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+    <canvas id="canvas" width="535px" height="535px"></canvas>
+    <!-- Crocs -->
+    <div class="pawn" id="croc_1">
+        <img src="img/croc.png" />
+    </div>
+    <div class="pawn" id="croc_2">
+        <img src="img/croc.png" />
+    </div>
+    <div class="pawn" id="croc_3">
+        <img src="img/croc.png" />
+    </div>
+    <!-- Monkeys -->
+    <div class="pawn" id="monkey_1">
+        <img src="img/monkey.png" />
+    </div>
+    <div class="pawn" id="monkey_2">
+        <img src="img/monkey.png" />
+    </div>
+    <div class="pawn" id="monkey_3">
+        <img src="img/monkey.png" />
+    </div>
+    <table>
+
+    </table>
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+        init()
+    </script>
+
+</body>
+
 </html>
