@@ -7,9 +7,7 @@ function init() {
     }
     drawBoard();
     fillTable();
-
 }
-
 
 function drawBoard() {
     //Box width
@@ -18,7 +16,6 @@ function drawBoard() {
     var bh = 545;
     //Padding
     var p = 10;
-
 
     var context = canvas.getContext("2d");
     for (var x = 0; x <= bw; x += 170) {
