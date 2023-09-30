@@ -15,7 +15,7 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Hello"
+    title = "Hi"
     subtitle = ""
     keywords = ""
     copyright = ""
@@ -39,6 +39,6 @@ paginate = 5
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about"
+        identifier = "About"
         name = "About"
         url = "/about"
