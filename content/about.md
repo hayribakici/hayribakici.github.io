@@ -1,9 +1,7 @@
 +++
-title = "About"
-date = "2023-09-30"
-author = "Hayri"
+title = 'About'
+date = 2023-10-10T15:55:58+02:00
+draft = false
 +++
 
-# Hi there...
-
-... I am glad that you found that page. I wish you pleasant day!
+Hello

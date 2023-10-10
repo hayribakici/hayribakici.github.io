@@ -29,7 +29,7 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Hello Friend"
+    title = "Hello"
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = ""
@@ -46,7 +46,7 @@ paginate = 5
     # lastModDisplay = ""
 
     [languages.en.params.logo]
-      logoText = "hello friend"
+      logoText = "hello"
       logoHomeLink = "/"
     # or
     #
