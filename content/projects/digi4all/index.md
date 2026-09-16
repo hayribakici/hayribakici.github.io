@@ -10,4 +10,4 @@ draft = false
   list = "always"
 +++
 
-How do digital systems shape behaviour and perception? From infinite scrolling to recommendation systems and the application of recommendations systems in education.
+A university project about how digital systems shape behaviour and perception: from infinite scrolling to recommendation systems and their application in education.

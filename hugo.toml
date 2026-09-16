@@ -19,6 +19,8 @@ theme = "dream"
   [params.navItems.github]
     title = "GitHub"
     href = "https://github.com/hayribakici"
+    target = "_blank"
+    icon = "logo-github"
 
   [params.advanced]
     customCSS = ["css/projects.css"]
