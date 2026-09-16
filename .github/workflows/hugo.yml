@@ -56,6 +56,17 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
+      - name: Build digi4all module
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo \
+            --source digi4all \
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/digi4all/" \
+            --destination "public/digi4all"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
