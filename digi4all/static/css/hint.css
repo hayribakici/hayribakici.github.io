@@ -1,0 +1,20 @@
+blockquote.md-hint p {
+  color: var(--MAIN-TEXT-color);
+}
+
+.md-hint.info {
+  border-left-color: rgba(var(--md-hint-info-color), 1);
+  background-color: rgba(var(--md-hint-info-color), 0.25);
+}
+.md-hint.warning {
+  border-left-color: rgba(var(--md-hint-warning-color), 1);
+  background-color: rgba(var(--md-hint-warning-color), 0.25 );
+}
+.md-hint.danger {
+  border-left-color: rgba(var(--md-hint-danger-color), 1);
+  background-color: rgba(var(--md-hint-danger-color), 0.25);
+}
+.md-hint.normal {
+  border-left-color: rgba(var(--md-hint-normal), 1);
+  background-color: rgba(var(--md-hint-normal), 0.05);
+}

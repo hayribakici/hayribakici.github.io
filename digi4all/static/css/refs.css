@@ -1,0 +1,13 @@
+.refs {
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+}
+
+.refs-label {
+  padding-left: .5em;
+}
+
+.refs-label:hover {
+  background-color: lightgray
+}

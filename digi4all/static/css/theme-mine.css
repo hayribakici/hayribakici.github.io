@@ -1,0 +1,188 @@
+:root {
+    --md-hint-info-color: 102, 187, 255;
+    --md-hint-warning-color: 255, 221, 102;
+    --md-hint-danger-color: 255, 102, 102;
+    --md-hint-normal: 91, 93, 94;
+
+    --MAIN-TEXT-color: #323232;
+    /* Color of text by default */
+    --MAIN-TITLES-TEXT-color: #5e5e5e;
+    /* Color of titles h2-h3-h4-h5 */
+    --MAIN-LINK-color: #1C90F3;
+    /* Color of links */
+    --MAIN-LINK-HOVER-color: #167ad0;
+    /* Color of hovered links */
+    --MAIN-ANCHOR-color: #1C90F3;
+    /* color of anchors on titles */
+
+    --MENU-HOME-LINK-color: #323232;
+    /* Color of the home button text */
+    --MENU-HOME-LINK-HOVER-color: #5e5e5e;
+    /* Color of the hovered home button text */
+
+    --MENU-HEADER-BG-color: #1C90F3;
+    /* Background color of menu header */
+    --MENU-HEADER-BORDER-color: #33a1ff;
+    /*Color of menu header border */
+
+    --MENU-SEARCH-BG-color: #167ad0;
+    /* Search field background color (by default borders + icons) */
+    --MENU-SEARCH-BOX-color: #33a1ff;
+    /* Override search field border color */
+    --MENU-SEARCH-BOX-ICONS-color: #a1d2fd;
+    /* Override search field icons color */
+
+    --MENU-SECTIONS-ACTIVE-BG-color: #20272b;
+    /* Background color of the active section and its childs */
+    --MENU-SECTIONS-BG-color: #252c31;
+    /* Background color of other sections */
+    --MENU-SECTIONS-LINK-color: #ccc;
+    /* Color of links in menu */
+    --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;
+    /* Color of links in menu, when hovered */
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #777;
+    /* Color of active category text */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff;
+    /* Color of background for the active category (only) */
+
+    --MENU-VISITED-color: #33a1ff;
+    /* Color of 'page visited' icons in menu */
+    --MENU-SECTION-HR-color: #20272b;
+    /* Color of <hr> separator in menu */
+}
+
+
+#chapter p {
+    text-align: left;
+}
+
+@media(min-width:1300px) {
+    .site-main {
+        margin-top: 8em
+    }
+
+    .desktop-only,
+    #toc.show-toc {
+        display: block
+    }
+
+    .desktop-only-ib {
+        display: inline-block
+    }
+
+    figure.left {
+        margin-left: -240px
+    }
+
+    figure.left p {
+        text-align: left
+    }
+
+    figure.right {
+        margin-right: -240px
+    }
+
+    figure.right p {
+        text-align: right
+    }
+
+    figure.big {
+        width: 1200px;
+        margin-left: -240px
+    }
+}
+
+@media(min-width:1800px) {
+    .site-main {
+        margin-top: 10em
+    }
+
+    .section-inner {
+        max-width: 1600px
+    }
+
+    .thin {
+        max-width: 960px
+    }
+
+    figure.left {
+        max-width: 75%;
+        margin-left: -320px
+    }
+
+    figure.right {
+        max-width: 75%;
+        margin-right: -320px
+    }
+
+    figure.big {
+        width: 1600px;
+        margin-left: -320px
+    }
+}
+
+@media(max-width:520px) {
+
+    figure.left,
+    figure.right {
+        float: unset;
+        max-width: 100%;
+        margin: 0
+    }
+
+    #mobile-menu {
+        right: 1.2em
+    }
+}
+
+figure.right {
+    max-width: 30%;
+    width: auto\9*0.3;
+    /* ie8 */
+    height: auto;
+    float: right;
+}
+
+figure.left {
+    max-width: 30%;
+    /* width: auto\9*0.3; /* ie8 
+    height: auto;
+    */
+    float: left;
+}
+
+img[src$='#center'] {
+    display: block;
+    margin: 0.7rem auto;
+    /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+    /* whatever else styles you fancy here */
+}
+
+img[src$='#floatleft'] {
+    float: left;
+    margin: 0.7rem;
+    /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
+}
+
+img[src$='#floatright'] {
+    float: right;
+    margin: 0.7rem;
+    /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
+}
+
+figure.circular img {
+    border-radius: 50%;
+}
+
+figure.bw img {
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+}

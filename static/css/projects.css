@@ -1,0 +1,7 @@
+/* Dream cards retain their native layout and Markdown descriptions. */
+.project-tile { text-decoration: none; overflow: hidden; }
+.project-tile .card-body { padding: 1rem; }
+.project-tile .card-title { font-size: 0.875rem; line-height: 1.5; overflow-wrap: anywhere; }
+.project-tile .project-description { margin: 0; font-size: 1rem; line-height: 1.6; overflow-wrap: anywhere; }
+.project-tile:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.project-grid { opacity: 1; }

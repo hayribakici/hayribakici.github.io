@@ -1,0 +1,27 @@
++++
+title = "Weitere suchterzeugende Interaktion"
+date = 2021-07-27T22:42:33+02:00
+hidden = true
++++
+
+| Paradigma                 | Beschreibung                                                                                                                                                                                                                                                                                    | Anwendung                                                                                                                                                                                                                                                                                                                                                 |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Variable Belohnung        | Nutzer erhalten auf zufällige Weise Belohnungen, wodurch mehr Dopamin im Gehirn produziert wird, als herkömmliche Belohnungen.                                                                                                                                                                  | Benachrichtigungen im Allgemeinen, z.B. wenn der abonnierte Kanal auf YouTube ein neues Video gepostet hat,  Mobile-Games                                                                                                                                                                                                                                 |
+| Soziale Reziprozität      | Durch das Liken oder Kommentieren von anderen (soziale Gratifikation) erhalten Nutzer eine chemische Zufriedenheit.                                                                                                                                                                             | Instagram, Facebook, LinkedIn; der Facebook-Messenger zeigt dem Absender, dass der Empfänger die Nachricht gelesen hat, um das Zurückschreiben anzuregen.                                                                                                                                                                                                 |
+| Illusion der Wahlfreiheit | Bei der Suche nach Restaurants in der Nähe, werden nicht alle Restaurants angezeigt, um Nutzer länger an die Webseite oder App zu binden. Eine begrenzte Auswahl von Wahlmöglichkeiten lässt Nutzer länger nach Alternativen innerhalb der Anwendung suchen.                                    | Die Auswahlmöglichkeiten erwecken den Anschein, als ob sie umfangreich wären, indem eine begrenzte Auswahl von Optionen präsentiert wird. YouTube's Vorschläge und Reihenfolge der Suchergebnisse haben einen bedeutenden Einfluss auf die Inhalte, die von den Nutzern konsumiert werden.                                                                |
+| User Investment           | Menschen projizieren mehr Wert auf etwas, wenn sie am Aufbau oder an der Erstellung beteiligt sind, wie z.B. die Erstellung eines Profils auf einem sozialen Netzwerk.                                                                                                                          | So gut wie alle sozialen Netzwerke. Obwohl es genug andere Seiten existieren, die die gleiche Funktionalität anbieten wie Twitter, bleiben Nutzer bei Twitter, da sie Zeit und Energie in die wachsenden Followern investiert haben. Oder auch Zeit und Energie investiert haben, all diese Tweets zu schreiben, die dann auf ihrem Profil zu sehen sind. |
+| Gamification              | Game-Mechanismen, um die Erledigung von Aufgaben zu belohnen. Im akademischen Bereich wird Gamification als einen Prozess der Aufwertung von Dienstleistungen mit (motivierenden) Aufforderungscharakter definiert, um spielerische Erfahrungen und weitere Verhaltensergebnisse hervorzurufen. | ToDo-Apps wie Todoist oder TickTick geben Nutzer Punkte, wenn sie z.B. eine Aufgabe hinzufügen und auch abhaken. Mit zunehmender Punktezahl werden ihnen bspw. App-Themes freigeschaltet.                                                                                                                                                                 |
+
+</br>
+
+{{% columns %}}
+
+<--->
+[Weiter zum nächsten Kapitel →]({{< ref "/recommender-systems/" >}})
+{{% /columns %}}
+
+
+{{% refs "Quellenangaben" %}}
+* C. Neyman, „A Survey of Addictive Software Design“, _Computer Science and Software Engineering_, Juni 2017, \[Online\]. Verfügbar unter: [https://digitalcommons.calpoly.edu/cscsp/111](https://digitalcommons.calpoly.edu/cscsp/111)
+* J. Hamari, J. Koivisto, und H. Sarsa, „Does Gamification Work? — A Literature Review of Empirical Studies on Gamification“, gehalten auf der Proceedings of the Annual Hawaii International Conference on System Sciences, Jan. 2014. doi: [10.1109/HICSS.2014.377](https://doi.org/10.1109/HICSS.2014.377).
+{{% /refs %}}

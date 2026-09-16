@@ -1,0 +1,279 @@
+diff --git a/.gitignore b/.gitignore
+old mode 100644
+new mode 100755
+diff --git a/.gitmodules b/.gitmodules
+old mode 100644
+new mode 100755
+diff --git a/LICENSE b/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/_internal/disqus.html b/_internal/disqus.html
+old mode 100644
+new mode 100755
+diff --git a/archetypes/chapter.md b/archetypes/chapter.md
+old mode 100644
+new mode 100755
+diff --git a/archetypes/default.md b/archetypes/default.md
+old mode 100644
+new mode 100755
+diff --git a/config/_default/config.toml b/config/_default/config.toml
+old mode 100644
+new mode 100755
+diff --git a/config/production/config.toml b/config/production/config.toml
+old mode 100644
+new mode 100755
+diff --git a/content/_index.md b/content/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/about/_index.md b/content/about/_index.md
+old mode 100644
+new mode 100755
+index 3ca4e29..7b1d1cf
+--- a/content/about/_index.md
++++ b/content/about/_index.md
+@@ -68,9 +68,6 @@ Der Lernpfad in diesem Modul ist unbedingt linear. An einigen Stellen können St
+ 
+ </br>
+ 
+-{{% columns %}}
+-
+-</br>
+ 
+ {{% columns %}}
+ 
+@@ -86,7 +83,6 @@ Am Ende des Moduls wird auf das Thema Schule eingegangen, indem die Vorteile und
+ 
+ </br>
+ 
+-{{% columns %}}
+ 
+ 
+ #### Literatur und Referenzen
+diff --git a/content/about/author.jpg b/content/about/author.jpg
+old mode 100644
+new mode 100755
+diff --git a/content/addictive-interaction/_index.md b/content/addictive-interaction/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/addictive-interaction/addictive-patterns/_index.md b/content/addictive-interaction/addictive-patterns/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/addictive-interaction/infinite-scrolling/_index.md b/content/addictive-interaction/infinite-scrolling/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/addictive-interaction/infinite-scrolling/doomscroller.png b/content/addictive-interaction/infinite-scrolling/doomscroller.png
+old mode 100644
+new mode 100755
+diff --git a/content/addictive-interaction/infinite-scrolling/doomscroller_qr.png b/content/addictive-interaction/infinite-scrolling/doomscroller_qr.png
+old mode 100644
+new mode 100755
+diff --git a/content/bibliography.md b/content/bibliography.md
+old mode 100644
+new mode 100755
+diff --git a/content/education-and-school/_index.md b/content/education-and-school/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/education-and-school/advantages.md b/content/education-and-school/advantages.md
+old mode 100644
+new mode 100755
+diff --git a/content/education-and-school/challenges.md b/content/education-and-school/challenges.md
+old mode 100644
+new mode 100755
+diff --git a/content/education-and-school/introduction/_index.md b/content/education-and-school/introduction/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/introduction/_index.md b/content/introduction/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/introduction/outtakes.md b/content/introduction/outtakes.md
+old mode 100644
+new mode 100755
+diff --git a/content/quiz/_index.md b/content/quiz/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/_index.md b/content/recommender-systems/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/functionality/_index.md b/content/recommender-systems/functionality/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/functionality/interaction/_index.md b/content/recommender-systems/functionality/interaction/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/functionality/interaction/feedback_loop.png b/content/recommender-systems/functionality/interaction/feedback_loop.png
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/functionality/setup/_index.md b/content/recommender-systems/functionality/setup/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/functionality/setup/rs.png b/content/recommender-systems/functionality/setup/rs.png
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/functionality/setup/trace.png b/content/recommender-systems/functionality/setup/trace.png
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/functionality/works/_index.md b/content/recommender-systems/functionality/works/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/functionality/works/facebook-filter/_index.md b/content/recommender-systems/functionality/works/facebook-filter/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/functionality/works/facebook-filter/filtering.png b/content/recommender-systems/functionality/works/facebook-filter/filtering.png
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/impact/_index.md b/content/recommender-systems/impact/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/impact/differences.md b/content/recommender-systems/impact/differences.md
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/impact/echo-chamber/_index.md b/content/recommender-systems/impact/echo-chamber/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/impact/echo-chamber/echo_chamber_simulation.png b/content/recommender-systems/impact/echo-chamber/echo_chamber_simulation.png
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/impact/filter-bubble/_index.md b/content/recommender-systems/impact/filter-bubble/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/impact/filter-bubble/filterbubble.png b/content/recommender-systems/impact/filter-bubble/filterbubble.png
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/impact/filter-bubble/theirtube.png b/content/recommender-systems/impact/filter-bubble/theirtube.png
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/introduction/_index.md b/content/recommender-systems/introduction/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/introduction/overload.png b/content/recommender-systems/introduction/overload.png
+old mode 100644
+new mode 100755
+diff --git a/content/recommender-systems/measures/_index.md b/content/recommender-systems/measures/_index.md
+old mode 100644
+new mode 100755
+diff --git a/content/summary/_index.md b/content/summary/_index.md
+old mode 100644
+new mode 100755
+diff --git a/layouts/partials/custom-header.html b/layouts/partials/custom-header.html
+old mode 100644
+new mode 100755
+diff --git a/layouts/partials/favicon.html b/layouts/partials/favicon.html
+old mode 100644
+new mode 100755
+diff --git a/layouts/partials/logo.html b/layouts/partials/logo.html
+old mode 100644
+new mode 100755
+diff --git a/layouts/shortcodes/btn.html b/layouts/shortcodes/btn.html
+old mode 100644
+new mode 100755
+diff --git a/layouts/shortcodes/center.html b/layouts/shortcodes/center.html
+old mode 100644
+new mode 100755
+diff --git a/layouts/shortcodes/columns.html b/layouts/shortcodes/columns.html
+old mode 100644
+new mode 100755
+diff --git a/layouts/shortcodes/highlight.html b/layouts/shortcodes/highlight.html
+old mode 100644
+new mode 100755
+diff --git a/layouts/shortcodes/hint.html b/layouts/shortcodes/hint.html
+old mode 100644
+new mode 100755
+diff --git a/layouts/shortcodes/quizdown.html b/layouts/shortcodes/quizdown.html
+old mode 100644
+new mode 100755
+diff --git a/layouts/shortcodes/rawhtml.html b/layouts/shortcodes/rawhtml.html
+old mode 100644
+new mode 100755
+diff --git a/layouts/shortcodes/refs.html b/layouts/shortcodes/refs.html
+old mode 100644
+new mode 100755
+diff --git a/layouts/shortcodes/sidenote.html b/layouts/shortcodes/sidenote.html
+old mode 100644
+new mode 100755
+diff --git a/layouts/shortcodes/todo.html b/layouts/shortcodes/todo.html
+old mode 100644
+new mode 100755
+diff --git a/static/css/btn.css b/static/css/btn.css
+old mode 100644
+new mode 100755
+diff --git a/static/css/columns.css b/static/css/columns.css
+old mode 100644
+new mode 100755
+diff --git a/static/css/hint.css b/static/css/hint.css
+old mode 100644
+new mode 100755
+diff --git a/static/css/refs.css b/static/css/refs.css
+old mode 100644
+new mode 100755
+diff --git a/static/css/sidenote.css b/static/css/sidenote.css
+old mode 100644
+new mode 100755
+diff --git a/static/css/theme-mine.css b/static/css/theme-mine.css
+old mode 100644
+new mode 100755
+diff --git a/static/css/todo.css b/static/css/todo.css
+old mode 100644
+new mode 100755
+diff --git a/static/images/favicon.png b/static/images/favicon.png
+old mode 100644
+new mode 100755
+diff --git a/static/images/logo.png b/static/images/logo.png
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/.gitignore b/themes/hugo-notice/.gitignore
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/LICENSE b/themes/hugo-notice/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/README.md b/themes/hugo-notice/README.md
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/i18n/ar.yaml b/themes/hugo-notice/i18n/ar.yaml
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/i18n/de.yaml b/themes/hugo-notice/i18n/de.yaml
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/i18n/en.yaml b/themes/hugo-notice/i18n/en.yaml
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/i18n/es.yaml b/themes/hugo-notice/i18n/es.yaml
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/i18n/fr.yaml b/themes/hugo-notice/i18n/fr.yaml
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/i18n/it.yaml b/themes/hugo-notice/i18n/it.yaml
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/i18n/pt.yaml b/themes/hugo-notice/i18n/pt.yaml
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/i18n/ru.yaml b/themes/hugo-notice/i18n/ru.yaml
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/i18n/tr.yaml b/themes/hugo-notice/i18n/tr.yaml
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/i18n/zh-cn.yaml b/themes/hugo-notice/i18n/zh-cn.yaml
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/layouts/shortcodes/notice-feather-icons.html b/themes/hugo-notice/layouts/shortcodes/notice-feather-icons.html
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/layouts/shortcodes/notice.html b/themes/hugo-notice/layouts/shortcodes/notice.html
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/screenshot.png b/themes/hugo-notice/screenshot.png
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-notice/theme.yaml b/themes/hugo-notice/theme.yaml
+old mode 100644
+new mode 100755
+diff --git a/themes/hugo-theme-learn b/themes/hugo-theme-learn
+--- a/themes/hugo-theme-learn
++++ b/themes/hugo-theme-learn
+@@ -1 +1 @@
+-Subproject commit d198cbe65f064575df1ab02415980d6e44363bf9
++Subproject commit d198cbe65f064575df1ab02415980d6e44363bf9-dirty

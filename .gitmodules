@@ -1,3 +1,1 @@
-[submodule "hello-friend"]
-  path = themes/hello-friend
-  url = https://github.com/panr/hugo-theme-hello-friend.git
+# Dream is vendored in themes/dream.

@@ -1,0 +1,39 @@
+.gdoc-button {
+    display: inline-block;
+    /* background: var(--accent-color-lite); */
+    color: #fff !important;
+    background-color: #9e9e9e !important;
+    border-color: #9e9e9e !important;
+    border: 1px solid #fff;
+    border-radius: 0.15rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.gdoc-button__link {
+    display: inline-block;
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.gdoc-button:hover {
+    /* background: var(--button-background);
+    border-color: var(--button-border-color); */
+    color: #2b2b2b !important;
+}
+
+.gdoc-button--regular {
+    font-size: 16px;
+}
+
+.gdoc-button--regular .gdoc-button__link {
+    padding: 0.25rem 0.5rem;
+}
+
+.gdoc-button--large {
+    font-size: 1.25rem;
+}
+
+.gdoc-button--large .gdoc-button__link {
+    padding: 0.5rem 1rem;
+}
