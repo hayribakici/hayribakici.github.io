@@ -10,7 +10,7 @@ theme = "dream"
 [params]
   author = "Onur Hayri Bakici"
   showAuthor = false
-  headerTitle = "hello"
+  headerTitle = "Things I've made"
   description = "Projects and learning materials by Onur Hayri Bakici."
   lightTheme = "emerald"
   darkTheme = "forest"
