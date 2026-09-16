@@ -1,3 +1,4 @@
+{{ $project := . }}
 <div class="{{ if .Params.destination }}project-card {{ end }}card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30">
   {{ if .Params.cover }}
   <figure>
@@ -6,13 +7,13 @@
       {{ $webp := .Process "webp" }}
       <picture>
         <source srcset="{{ $webp.RelPermalink }}" type="image/webp" />
-        <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
+        <img src="{{ .RelPermalink }}" alt="{{ $project.Title }}" />
       </picture>
     {{ else }}
-      <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
+      <img src="{{ .RelPermalink }}" alt="{{ $project.Title }}" />
     {{ end }}
     {{ else }}
-    <img src="{{ .Params.cover }}" alt="{{ .Title }}" />
+    <img src="{{ .Params.cover }}" alt="{{ $project.Title }}" />
     {{ end }}
   </figure>
   {{ else if not site.Params.noDefaultSummaryCover }}
@@ -21,7 +22,7 @@
     {{ $webp := .Process "webp" }}
     <picture>
       <source srcset="{{ $webp.RelPermalink }}" type="image/webp" />
-      <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
+    <img src="{{ .RelPermalink }}" alt="{{ $project.Title }}" />
     </picture>
     {{ end }}
   </figure>
@@ -45,6 +46,7 @@
     <p class="[&_a]:font-medium [&_a]:underline z-10">
       {{- or .Description (.Summary | replaceRE "^<p>" "" | replaceRE "</p>$" "" | emojify | safeHTML) -}}
     </p>
+    <span class="project-visit text-sm">View project →</span>
 
     {{ $hasAuthor := and site.Params.showAuthor (or .Params.author site.Params.author) }}
     {{ $showReadingTime := not .Params.destination }}
