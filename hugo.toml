@@ -1,7 +1,7 @@
 baseURL = "https://hayribakici.github.io/"
 defaultContentLanguage = "en"
 locale = "en-US"
-title = "Hello"
+title = "Things I've made"
 theme = "dream"
 
 [pagination]
@@ -11,7 +11,7 @@ theme = "dream"
   author = "Onur Hayri Bakici"
   showAuthor = false
   headerTitle = "Things I've made"
-  description = "Projects and learning materials by Onur Hayri Bakici."
+  description = ""
   lightTheme = "emerald"
   darkTheme = "forest"
   noDefaultSummaryCover = true
