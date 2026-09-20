@@ -10,4 +10,4 @@ draft = false
   list = "always"
 +++
 
-Turn Markdown sections and [Obsidian callouts](https://help.obsidian.md/callouts) into styled boxes in PDFs.
+Turn Markdown sections and [Obsidian callouts](https://help.obsidian.md/callouts) into styled PDF boxes with Pandoc.

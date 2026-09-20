@@ -10,4 +10,4 @@ draft = false
   list = "always"
 +++
 
-A university project about how digital systems shape behaviour and perception: from infinite scrolling to recommendation systems and their application in education.
+An educational module exploring recommendation systems, infinite scrolling, and their effects on behaviour.

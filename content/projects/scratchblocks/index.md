@@ -10,4 +10,4 @@ draft = false
   list = "always"
 +++
 
-Render Scratch code as visual blocks inside your notes.
+Render Scratch code as visual blocks inside your Obsidian notes.

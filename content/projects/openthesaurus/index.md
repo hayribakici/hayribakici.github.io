@@ -10,4 +10,4 @@ draft = false
   list = "always"
 +++
 
-Terminal client for looking up [openthesaurus.de](https://openthesurus.de).
+Look up German synonyms from your terminal using [OpenThesaurus](https://openthesaurus.de).
