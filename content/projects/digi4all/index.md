@@ -10,4 +10,4 @@ draft = false
   list = "always"
 +++
 
-An educational module exploring recommendation systems, infinite scrolling, and their effects on behaviour.
+An educational module exploring dark patterns, recommendation systems, and their effects on human behaviour.
