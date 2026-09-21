@@ -1,7 +1,7 @@
 +++
 title = "University Project: digi4all"
 type = "posts"
-weight = 1
+weight = 3
 destination = "https://hayribakici.github.io/digi4all/"
 cover = "preview.png"
 draft = false
