@@ -1,7 +1,7 @@
 +++
 title = "Scratchblocks for Obsidian"
 type = "posts"
-weight = 2
+weight = 1
 destination = "https://github.com/hayribakici/obsidian-scratchblocks"
 cover = "preview.webp"
 draft = false
