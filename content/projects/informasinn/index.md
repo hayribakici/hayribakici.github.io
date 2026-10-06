@@ -10,4 +10,4 @@ draft = false
   list = "always"
 +++
 
-Source code of a WebApp that allows students to explore the relationship of *data* and the *information* its holding.
+A web app that helps students explore the relationship between *data* and the information it conveys.
