@@ -1,7 +1,7 @@
 +++
 title = "OpenThesaurus CLI"
 type = "posts"
-weight = 4
+weight = 5
 destination = "https://github.com/hayribakici/openthesaurus-cli"
 cover = "preview.png"
 draft = false

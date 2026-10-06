@@ -1,7 +1,7 @@
 +++
 title = "InformaSinn"
 type = "posts"
-weight = 9
+weight = 4
 destination = "https://github.com/hayribakici/informasinn"
 cover = "preview.png"
 draft = false

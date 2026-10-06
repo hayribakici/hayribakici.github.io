@@ -1,7 +1,7 @@
 +++
 title = "ImageProgressBar"
 type = "posts"
-weight = 7
+weight = 8
 destination = "https://github.com/hayribakici/imageprogressbar"
 cover = "preview.png"
 draft = false

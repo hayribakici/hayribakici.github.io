@@ -1,7 +1,7 @@
 +++
 title = "SeesawView"
 type = "posts"
-weight = 8
+weight = 9
 destination = "https://github.com/hayribakici/seesaw-view"
 cover = "preview-v2.png"
 draft = false

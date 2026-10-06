@@ -1,7 +1,7 @@
 +++
 title = "scratchblocks for TypeScript"
 type = "posts"
-weight = 6
+weight = 7
 cover = "/images/github-cover.svg"
 destination = "https://github.com/hayribakici/scratchblocks-ts"
 draft = false
